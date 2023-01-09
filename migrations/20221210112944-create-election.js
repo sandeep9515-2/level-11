@@ -16,7 +16,7 @@ module.exports = {
       urlString: {
         type: Sequelize.STRING,
         allowNull: false,
-        unique: true,
+        unique: true,   
       },
       running: {
         type: Sequelize.BOOLEAN,
