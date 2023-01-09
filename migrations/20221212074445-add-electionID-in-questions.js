@@ -22,7 +22,7 @@ module.exports = {
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
   },
-
+    
   async down(queryInterface, Sequelize) {
     await queryInterface.removeColumn("Questions", "electionID");
     /**
