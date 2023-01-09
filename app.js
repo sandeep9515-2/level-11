@@ -383,7 +383,7 @@ app.post(
       return response.redirect("/");
     }
   }
-);
+); 
 
 //election page
 app.get(
