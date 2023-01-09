@@ -12,7 +12,7 @@ module.exports = {
       question: {
         type: Sequelize.STRING,
         allowNull: false,
-      },
+      },   
       description: {
         type: Sequelize.STRING,
       },
